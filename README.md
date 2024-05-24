@@ -11,6 +11,9 @@ const xxxx  = document.querySelector(".xxxx");
 xxxx.classList.toggle("active");
 xxxx.classList.add("active");
 xxxx.classList.remove("active");
+
+//获取元素距离页面顶部的距离
+xxxx.box.getBoundingClientRect().top()
 ```
 
 css相关
