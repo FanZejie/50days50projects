@@ -35,5 +35,7 @@ transform-origin: top left;
 transition: transform 0.5s ease-in;
 指定flex变化时的动画效果
 transition: flex 0.7s ease-in;
+设置动画缓动函数
+transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 ```
