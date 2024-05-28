@@ -14,6 +14,11 @@ xxxx.classList.remove("active");
 
 //获取元素距离页面顶部的距离
 xxxx.box.getBoundingClientRect().top()
+
+//audio
+document.getElementById(sound).play()    // 播放音频
+song.pause()  //暂停
+song.currentTime = 0  //设置时间起点
 ```
 
 css相关
