@@ -2,7 +2,7 @@
 HTML+CSS+JS practice！
 
 
-## class1~4
+## class1~10
 
 js相关
 
@@ -43,4 +43,15 @@ transition: flex 0.7s ease-in;
 设置动画缓动函数
 transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
+```
+
+
+css伪类
+```css
+//处于激活状态时常用好看的处理方式
+.btn:active{
+    box-shadow: 2px 2px 5px #fc894d;给个阴影
+    transform: scale(0.98);缩放一下
+
+}
 ```
