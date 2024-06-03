@@ -61,6 +61,10 @@ css伪类
     transform: scale(0.98);缩放一下
 
 }
+//处于选中时去除轮廓线
+.btn:focus{
+    outline: none;
+}
 ```
 
 布局相关
